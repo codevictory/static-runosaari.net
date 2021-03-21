@@ -93,6 +93,26 @@ body {
   text-shadow: 3px 3px 3px #ababab;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+footer .container .middle img {
+  max-width: 30px;
+}
+
+footer .container .right {
+  text-align: right;
+}
+
 #main-nav-bar {
   display: flex;
   justify-content: center;
@@ -123,6 +143,8 @@ body {
     rgba(255, 0, 0, 0),
     rgb(198, 207, 255)
   );
+  padding: 10px;
+  border-radius: 3px;
 }
 
 /* ==========================================================================
