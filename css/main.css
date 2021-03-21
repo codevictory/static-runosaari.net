@@ -100,6 +100,21 @@ body {
   padding: 15px;
 }
 
+.main-nav-item:hover {
+  background-color: rgb(198, 207, 255);
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#main-content {
+  width: 50%;
+  background-color: rgb(198, 207, 255);
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
