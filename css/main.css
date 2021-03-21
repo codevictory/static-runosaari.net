@@ -89,6 +89,8 @@ textarea {
 
 body {
   background-color: azure;
+  font-family: "Crimson Text", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
 }
 
 #main-nav-bar {
@@ -101,7 +103,11 @@ body {
 }
 
 .main-nav-item:hover {
-  background-color: rgb(198, 207, 255);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgb(198, 207, 255)
+  );
 }
 
 #main-container {
@@ -112,7 +118,11 @@ body {
 
 #main-content {
   width: 50%;
-  background-color: rgb(198, 207, 255);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgb(198, 207, 255)
+  );
 }
 
 /* ==========================================================================
