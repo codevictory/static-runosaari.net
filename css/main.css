@@ -147,6 +147,15 @@ footer .container .right {
   border-radius: 3px;
 }
 
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
