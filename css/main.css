@@ -87,6 +87,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: azure;
+}
+
+#main-nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-item {
+  padding: 15px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +273,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
