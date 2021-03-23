@@ -135,7 +135,8 @@ footer .container .right {
 }
 
 #logo-container {
-  width: 50%;
+  width: 80%;
+  max-width: 1000px;
   background-color: #d5caf2;
   padding-bottom: 0px;
   border-radius: 3px;
@@ -143,7 +144,8 @@ footer .container .right {
 }
 
 #text-container {
-  width: 50%;
+  width: 80%;
+  max-width: 1000px;
   background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #d5caf2);
   text-align: center;
 }
