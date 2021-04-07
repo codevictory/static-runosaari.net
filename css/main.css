@@ -90,7 +90,6 @@ textarea {
 body {
   background-color: white;
   font-family: "Crimson Text", sans-serif;
-  text-shadow: 3px 3px 3px #ababab;
   color: #2f273e;
   font-size: 1.1rem;
 }
@@ -133,6 +132,14 @@ a:hover {
 ul {
   text-align: left;
   max-width: 44%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-shadow: 3px 3px 3px #ababab;
 }
 
 .main-nav-bar {
