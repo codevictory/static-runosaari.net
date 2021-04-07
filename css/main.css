@@ -142,6 +142,10 @@ h5 {
   text-shadow: 3px 3px 3px #ababab;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 p {
   text-align: justify;
 }
@@ -196,6 +200,10 @@ p {
 .credits {
   position: relative;
   right: 8px;
+}
+
+.sub-title {
+  font-size: 1.6rem;
 }
 
 #logo-container {
