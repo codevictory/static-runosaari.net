@@ -136,6 +136,12 @@ ul {
   max-width: 44%;
 }
 
+@media screen and (max-width: 600px) {
+  ul {
+    max-width: 90% !important;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -185,6 +191,12 @@ p {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .text-container p {
+    max-width: 90% !important;
+  }
+}
+
 .text-container p {
   padding: 0px 20px;
   max-width: 56%;
@@ -204,8 +216,10 @@ p {
   left: 16px;
 }
 
-.sub-title {
-  font-size: 1.6rem;
+@media screen and (max-width: 600px) {
+  .time-and-place {
+    font-size: 1.1rem;
+  }
 }
 
 #logo-container {
@@ -236,6 +250,13 @@ p {
 
 #performers-container {
   padding-bottom: 20%;
+}
+
+#workshops {
+  text-align: left !important;
+}
+
+@media screen and (max-width: 600px) {
 }
 
 /* ==========================================================================
