@@ -108,9 +108,45 @@ footer .container {
   align-items: start;
 }
 
+@media screen and (max-width: 600px) {
+  footer .container {
+    width: 95% !important;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer .container div {
+    text-align: center !important;
+  }
+}
+
 footer .container .middle img {
   max-width: 55px;
   margin-top: 10px;
+}
+
+footer .mobile-middle img {
+  max-width: 55px;
+  margin-top: 10px;
+}
+
+footer .mobile-middle {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  footer .container .middle {
+    visibility: hidden;
+    max-height: 15px;
+  }
+
+  footer .mobile-middle {
+    visibility: visible;
+  }
 }
 
 footer .container .right {
