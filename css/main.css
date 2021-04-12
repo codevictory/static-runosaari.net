@@ -333,12 +333,15 @@ p {
   border-top-right-radius: 3px;
 }
 
-#logo-container::after {
-  content: "@Sanna Hukkanen";
+#logo-credits {
+  width: 80%;
   font-size: 90%;
-  text-align: right;
-  position: relative;
-  left: 88%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background-color: #d5caf2;
+  max-width: 990px;
+  padding-right: 10px;
 }
 
 #logo-container + .text-container {
