@@ -297,6 +297,27 @@ p {
   }
 }
 
+.mobile-main-title {
+  visibility: hidden;
+  height: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-main-title {
+    visibility: visible !important;
+    height: 71px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .workshops-br {
+    margin-bottom: 17px;
+  }
+}
+
 #logo-container {
   width: 80%;
   max-width: 1000px;
@@ -337,21 +358,7 @@ p {
     height: 0px;
     margin: 0px;
   }
-
-  .mobile-main-title {
-    visibility: visible !important;
-    height: 71px !important;
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-  }
 }
-
-.mobile-main-title {
-  visibility: hidden;
-  height: 0px;
-  margin: 0px;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
