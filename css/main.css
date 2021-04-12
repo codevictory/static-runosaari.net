@@ -267,6 +267,12 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .text-container {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .text-container p {
     max-width: 90% !important;
   }
