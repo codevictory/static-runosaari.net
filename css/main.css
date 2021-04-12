@@ -88,10 +88,15 @@ textarea {
    ========================================================================== */
 
 body {
-  background-color: white;
   font-family: "Crimson Text", sans-serif;
   color: #2f273e;
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #d5caf2;
+  }
 }
 
 footer {
@@ -199,8 +204,42 @@ p {
   justify-content: center;
 }
 
+.mobile-main-nav-bar {
+  visibility: hidden;
+  height: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-main-nav-bar {
+    height: auto;
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5caf2;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .main-nav-bar {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
 .main-nav-item {
   padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-nav-item {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
 }
 
 .main-nav-item:hover {
@@ -293,6 +332,24 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  #main-title {
+    visibility: hidden;
+    height: 0px;
+    margin: 0px;
+  }
+
+  .mobile-main-title {
+    visibility: visible !important;
+    height: 71px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+.mobile-main-title {
+  visibility: hidden;
+  height: 0px;
+  margin: 0px;
 }
 
 /* ==========================================================================
